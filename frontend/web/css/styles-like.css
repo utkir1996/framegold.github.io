@@ -1,0 +1,29 @@
+
+
+.hal-like-button, .hal-like-button-my-likes {
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 16pt;
+}
+
+.hal-like-button {
+    cursor: pointer;
+}
+
+.hal-like-button:after, .hal-like-button-my-likes:after {
+    content: "";
+    float: right;
+    margin-left: 5px;
+    background-image: url('/images/reyting.png');
+    min-height: 25px;
+    min-width: 25px;
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.in-list:after, .hal-like-button-my-likes:after {
+    background-image: url('/images/reyting_up.png');
+}
